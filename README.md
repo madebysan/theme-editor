@@ -1,5 +1,5 @@
 <h1 align="center">Theme Editor</h1>
-<p align="center">A Claude Code skill that injects a floating visual theme editor<br>into any React + Tailwind v4 + shadcn/ui project.</p>
+<p align="center">A Claude Code skill that injects a floating visual theme editor<br>into any React + Tailwind CSS v4 project.</p>
 <p align="center"><a href="#install"><strong>Install the skill</strong></a></p>
 
 ---
@@ -32,8 +32,8 @@ The skill has three phases:
 ## Requirements
 
 - [Claude Code](https://claude.com/claude-code) CLI
-- A React project with **Tailwind CSS v4+** and **shadcn/ui**
-- CSS file using `@theme inline {}` with CSS variables (standard shadcn v4 setup)
+- A React project with **Tailwind CSS v4+**
+- CSS file using `@theme inline {}` or `@theme {}` with CSS variables
 
 ## Install
 
@@ -54,7 +54,7 @@ That's it. The skill is now available as `/theme-editor` in Claude Code.
 
 ## Usage
 
-1. Open a React + Tailwind v4 + shadcn/ui project in Claude Code
+1. Open a React + Tailwind v4 project in Claude Code
 2. Type `/theme-editor`
 3. Refresh your browser — paintbrush icon appears in the bottom-left corner
 4. Click to open the editor popover
