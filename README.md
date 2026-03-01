@@ -45,20 +45,18 @@ The skill has three phases:
 
 ## Install
 
-### One-liner
+In Claude Code, run:
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/madebysan/theme-editor/main/install.sh | bash
+```
+/plugin add madebysan/theme-editor
 ```
 
-### Manual
+Or install manually:
 
 ```bash
 git clone https://github.com/madebysan/theme-editor.git
 cp -r theme-editor/skill ~/.claude/skills/theme-editor
 ```
-
-That's it. The skill is now available as `/theme-editor` in Claude Code.
 
 ## Usage
 
@@ -70,7 +68,8 @@ That's it. The skill is now available as `/theme-editor` in Claude Code.
 6. When happy, export as JSON and say "apply this theme" to make it permanent
 7. Say "remove theme editor" to clean up the injected files
 
-## What's inside
+<details>
+<summary><strong>What's inside</strong></summary>
 
 ```
 skill/
@@ -91,6 +90,8 @@ skill/
     ├── variable-catalog.md     # All shadcn CSS variables
     └── css-patterns.md         # CSS pattern detection guide
 ```
+
+</details>
 
 ## License
 
