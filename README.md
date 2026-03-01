@@ -2,6 +2,14 @@
 <p align="center">A Claude Code skill that injects a floating visual theme editor<br>into any React + Tailwind CSS v4 project.</p>
 <p align="center"><a href="#install"><strong>Install the skill</strong></a></p>
 
+<p align="center">
+  <img src="assets/theme-editor.gif" alt="Theme Editor demo — cycling through presets on a dashboard" width="800">
+</p>
+
+<p align="center">
+  <img src="assets/theme-editor-ui.png" alt="Theme Editor UI — Colors, Type, and Style tabs" width="800">
+</p>
+
 ---
 
 ## What it does
