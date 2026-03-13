@@ -95,8 +95,8 @@ skill/
 
 ## License
 
-MIT
+[MIT](LICENSE)
 
 ---
 
-<p align="center">Made by <a href="https://santiagoalonso.com">santiagoalonso.com</a></p>
+Made by [santiagoalonso.com](https://santiagoalonso.com)
