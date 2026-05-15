@@ -1,18 +1,22 @@
-<h1 align="center">Theme Editor</h1>
-<p align="center">A floating visual theme editor for any React + Tailwind CSS v4 project.<br>Tweak colors, fonts, radius, and shadows live in the browser.</p>
-<p align="center"><a href="#install"><strong>Install</strong></a></p>
+<h1>Theme Editor</h1>
 
-<p align="center">
-  <img src="assets/theme-editor.gif" alt="Theme Editor demo — cycling through presets on a dashboard" width="800">
+<p>A floating visual theme editor for any React + Tailwind CSS v4 project.<br>
+Tweak colors, fonts, radius, and shadows live in the browser.</p>
+
+<p>
+  <img src="https://img.shields.io/badge/React-61dafb" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-3178c6" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Tailwind-38bdf8" alt="Tailwind">
+  <img src="https://img.shields.io/badge/Claude%20API-d97757" alt="Claude API">
 </p>
 
-<p align="center">
-  <img src="assets/theme-editor-ui.png" alt="Theme Editor UI — Colors, Type, and Style tabs" width="800">
-</p>
+<p><a href="#install">Install</a></p>
 
----
+![Theme Editor demo — cycling through presets on a dashboard](assets/theme-editor.gif)
 
 I prefer making design token changes visually, pick colors, swap fonts, see how everything fits together. so I built a Claude Code skill that injects a visual theme editor into your running app.
+
+![Theme Editor UI — Colors, Type, and Style tabs](assets/theme-editor-ui.png)
 
 ## What it does
 
